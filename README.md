@@ -7,13 +7,13 @@ Patrick Carlson
 JSEG Image Segmentation - Final Project
 11/27/10
 
-Requirements:
+### Requirements:
 
-CUDA (on gpu1.cs.iastate.edu)
-OpenCV (on gpu1.cs.iastate.edu)
-CMake >= 2.8.1 (on gpu1.cs.iastate.edu)
+* CUDA (on gpu1.cs.iastate.edu)
+* OpenCV (on gpu1.cs.iastate.edu)
+* CMake >= 2.8.1 (on gpu1.cs.iastate.edu)
 
-Compiling:
+### Compiling:
 
 I used CMake to generate the makefile.  Thanks to Ryan
 for helping me with this.  I also used his cmake-modules
@@ -21,7 +21,7 @@ https://github.com/rpavlik/cmake-modules
 which help look for OpenCV.  All his files are in the "cmake"
 folder.
 
-To build:
+### To build:
 
 cd JSEG
 mkdir "build"
@@ -38,7 +38,7 @@ CMakeCache.txt file and rerun cmake.
 Then just run make.
 
 
-Running the program:
+### Running the program:
 
 Copy your image to the build directory so it's easier to run
 
@@ -53,7 +53,7 @@ Use CPU: (leave off -g parameter)
 Make sure -q <= 64 and -w is odd
 
 
-Notes:
+### Notes:
 
 Sometimes I would get significantly different J value
 results between the GPU and CPU.  However, after refactoring
@@ -68,7 +68,7 @@ I tried both the C and CPP versions and both compiled but neither
 worked.  So I gave up on that and just focused on single images.
 
 
-Paper References
+### Paper References
 
 Deng, Y., & Manjunath, B.S. (2001).
 Unsupervised segmentation of color-texture regions
