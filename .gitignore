@@ -1,3 +1,6 @@
+#Linux temp files
+*~
+
 *.i
 *.ii
 *.gpu
